@@ -1,0 +1,221 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('Blog Banner 1680x945 px (3).jpeg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 85vh; /* 85% of the viewport height */
+    /* Additional styling properties can be added as needed */
+    background-color: #7CD621;
+}
+
+
+header {
+    
+    padding: 30px 0; /* Adjust the top and bottom padding as needed */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; /* Adjust the right margin as needed */
+}
+
+nav a {
+    text-decoration: none;
+    color: white; /* Text color of the navbar links */
+    font-size: 30px; /* Adjust the font size as needed */
+}
+
+/* Optional: Add hover effect */
+nav a:hover {
+    color: #ffcc00; /* Adjust the hover color as needed */
+}
+
+
+.section{
+    height: 100vh;
+    display: flex;
+}
+
+.one{
+    margin-top: 640px;
+    background-image: url('Blog Banner 1680x945 px (6).jpeg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 110vh; /* 85% of the viewport height */
+    /* Additional styling properties can be added as needed */
+}
+
+.two{
+    margin: 0;
+    margin-top: 0px;
+    /* background-image: url('Blog Banner 1680x945 px (4).jpeg'); */
+    background-color: #7CD621;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* 85% of the viewport height */
+    /* Additional styling properties can be added as needed */
+}
+
+
+.two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1; /* Allow the .two section to take remaining vertical space */
+}
+
+.card {
+    max-width: 300px;
+    background-color: #7CD621;
+    border: 5px solid #dddddd;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    position: relative; /* Added for stacking effect */
+    overflow: hidden; /* Added for stacking effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added for smooth transition */
+
+    /* Other styles remain unchanged */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Added for a subtle box shadow on hover */
+    z-index: 1; /* Added for stacking effect */
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease; /* Added for smooth transition on image */
+}
+
+.card:hover img {
+    transform: scale(1.2); /* Added for a slight image scale on hover */
+}
+
+
+
+.three{
+    margin-top: 400px;
+    background-image: url('Blog Banner 1680x945 px (5).jpeg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 110vh; /* 85% of the viewport height */
+    /* Additional styling properties can be added as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contact-links {
+    margin-top: -30px;
+}
+
+.contact-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-size: 30px; /* Adjust the font size as needed */
+    margin: 0 10px;
+    padding: 15px; /* Adjust the padding to increase button size */
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+
+.contact-links a:hover {
+    background-color: #ddd;
+}
+
+.pro{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+.projects{
+    margin: 0;
+    background-color: #043400;
+    align-items: center;
+    text-align: center;
+    
+    
+    
+}
+
+
+
+.one {
+    margin-top: 640px;
+    background-image: url('Blog Banner 1680x945 px (6).jpeg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-section {
+    width: 80%;
+    max-width: 800px;
+    background-color: #7CD621;
+    border: 5px solid #dddddd;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills-section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.skills-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill-item {
+    font-size: 44px; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+    margin: 15px; /* Adjust the margin as needed */
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.skill-item:hover {
+    transform: scale(1.2);
+}
